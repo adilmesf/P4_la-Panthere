@@ -745,6 +745,7 @@ h4 {
 .img-responsive{
     width: 270px;
     height: 270px;
+    margin: 0 auto;
 }
 .portfolio-row {
     margin-bottom: 44px;

@@ -7,13 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" async>
-	<link rel="stylesheet" type="text/css" href="style.min.css" async>
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" async>
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css" async>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" defer>
+
+    <link rel="preload" href="style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" href="./css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" href="./css/et-line.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="style.min.css">
+		<link rel="stylesheet" href="./css/font-awesome.min.css">
+		<link rel="stylesheet" href="./css/et-line.min.css">
+    </noscript>	
 	
     
-    <title>Contact</title>
+    <title>La Panthère Agence de webdesign Lyon - Contact</title>
 
     
 <!-- Analytics -->
